@@ -27,13 +27,15 @@ The dashboard is designed to support **business decision-making** by highlightin
 - Month-over-Month Growth %
 - Top Performing Products
 
-## 🧮 Sample DAX Measures
-```DAX
-Total Revenue = SUM(Sales[Revenue])
+📊 Dashboard Preview
+- ![Sales Dashboard Preview](screenshots/dashboard_preview.png)
 
-MoM Growth % =
-DIVIDE(
-    [Total Revenue] - CALCULATE([Total Revenue], PREVIOUSMONTH(Date[Date])),
-    CALCULATE([Total Revenue], PREVIOUSMONTH(Date[Date]))
-)
+📥 Power BI File
+- project_2_powerbi.pbix (downloadable Power BI file)
+
+
+## 🧮 Sample DAX Measures (Core KPIs)
+Below are examples of key DAX measures used to calculate revenue and month-over-month growth.
+- Total Revenue – core business KPI
+- Total Revenue = SUM(Sales[Revenue])
 
