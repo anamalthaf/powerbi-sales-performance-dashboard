@@ -47,3 +47,6 @@ DIVIDE(
     CALCULATE([Total Revenue], PREVIOUSMONTH(Date[Date]))
 )
 
+## Aurthor
+Anam Althaf
+
