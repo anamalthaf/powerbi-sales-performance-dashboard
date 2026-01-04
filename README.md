@@ -51,7 +51,3 @@ DIVIDE(
 ## 👤 Author
 Anam Althaf 
 Junior Data Analyst  
-
-
-
-
