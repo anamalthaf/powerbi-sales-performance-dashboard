@@ -44,9 +44,14 @@ SUM(Sales[Revenue])
 MoM Growth % =
 DIVIDE(
     [Total Revenue] - CALCULATE([Total Revenue], PREVIOUSMONTH(Date[Date])),
-    CALCULATE([Total Revenue], PREVIOUSMONTH(Date[Date]))
-)
+    CALCULATE([Total Revenue], PREVIOUSMONTH(Date[Date])) )
 
-## Aurthor
-Anam Althaf
+---
+
+## 👤 Author
+Anam Althaf 
+Junior Data Analyst  
+
+
+
 
