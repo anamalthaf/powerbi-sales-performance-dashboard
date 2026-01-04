@@ -17,7 +17,7 @@ To enable business leaders and analysts to:
 ---
 
 ## Dashboard Preview
-*(Dashboard image displayed here)*
+![Power BI Sales Performance Dashboard](screenshots/dashboard_preview.png)
 
 ---
 
